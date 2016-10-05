@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="com.jbn.facebook.Action">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#2058c0">
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/imageButton5"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/fbhome"
+            android:layout_marginTop="10dp" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageButton6"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/fbfrnd"
+            android:layout_marginLeft="-80dp" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageButton7"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/fbchat" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageButton8"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/fbnot" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageButton9"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/fbsearch" />
+    </FrameLayout>
+</RelativeLayout>
