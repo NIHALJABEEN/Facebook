@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/RltvLytSts">
+
+
+        <ImageView
+            android:layout_width="71dp"
+            android:layout_height="71dp"
+
+            android:id="@+id/imageView6"
+            android:background="@drawable/profile"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:text="Nihal jabeen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView29"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="20dp"
+            android:elevation="1dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TxtVSts"
+            android:layout_marginTop="100dp" />
+
+        <Button
+            android:text="like"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button4"
+            android:layout_below="@id/TxtVSts" />
+
+        <Button
+            android:text="comment"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtVwSts"
+            android:layout_marginLeft="190dp"
+            android:layout_below="@id/TxtVSts"/>
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

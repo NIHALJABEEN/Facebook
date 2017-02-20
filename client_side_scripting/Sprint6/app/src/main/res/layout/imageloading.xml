@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.58"
+        android:id="@+id/lyimgsts"
+        android:background="@android:color/background_light">
+
+        <ImageView
+            android:layout_width="71dp"
+            android:layout_height="71dp"
+            android:id="@+id/imgvpro"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/profile"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/proname"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="90dp"
+            android:text="NIHAL BEEN"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:layout_width="390dp"
+            android:layout_height="500dp"
+            android:id="@+id/imgvsts"
+            android:layout_marginTop="100dp" />
+
+        <Button
+            android:text="like"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnlk"
+            android:layout_below="@id/imgvsts"/>
+
+        <Button
+            android:text="comment"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button6"
+            android:layout_below="@id/imgvsts"
+
+            android:layout_marginLeft="190dp" />
+    </RelativeLayout>
+</ScrollView>
